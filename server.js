@@ -17,17 +17,18 @@ app.use(express.static(path.resolve(__dirname, "build")));
 
 
 const contactEmail = nodemailer.createTransport({
-    service: 'smtp.gmail.com',
+    // service: 'smtp.gmail.com',
+    service: 'gmail',
+            port:465,
+            secure: true,
+            secureConnection: false,
     auth: {
-      type: "login",
-      port: 587,
-  secure: false,
-  logger: true,
-  debug: true,
-  ignoreTLS: true,// add this 
       user: process.env.Email,
       pass: process.env.Password,
     },
+    tls:{
+        rejectUnAuthorized:true
+    }
   });
   
   contactEmail.verify((error) => {
