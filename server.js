@@ -19,8 +19,9 @@ app.use(express.static(path.resolve(__dirname, "build")));
 const contactEmail = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'llyybb80@gmail.com',
-      pass: 'pqetngivnhcqfwyc',
+      type: "login",
+      user: process.env.Email,
+      pass: process.env.Password,
     },
   });
   
@@ -38,7 +39,7 @@ const contactEmail = nodemailer.createTransport({
     const message = req.body.message; 
     const mail = {
       from: name,
-      to: "a.k.sadi80@gmail.com",
+      to: "llyybb80@gmail.com",
       subject: "Contact Form Submission",
       html: `<p>Name: ${name}</p>
              <p>Email: ${email}</p>
