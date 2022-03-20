@@ -20,6 +20,8 @@ const contactEmail = nodemailer.createTransport({
     service: 'smtp.gmail.com',
     auth: {
       type: "login",
+      port: 465,
+    secure: true, // use SSL
       user: process.env.Email,
       pass: process.env.Password,
     },
