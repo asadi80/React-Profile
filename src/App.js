@@ -21,7 +21,7 @@ function App() {
       <Nav />
       <Routes>
         {/* <Route exact path="/" render={() => <Navigate to="/about" />} /> */}
-        {/* <Route path="/" exact element={<Home />} /> */}
+        <Route path="/" exact element={<Home />} />
         <Route path="/contact" element={<Contact />}/>
         <Route path="/projects" element={<Projects />}/>
         <Route path="/about" element={<About />}/>
