@@ -20,7 +20,7 @@ const contactEmail = nodemailer.createTransport({
     service: 'smtp.gmail.com',
     auth: {
       type: "login",
-      port: 25,
+      port: 587,
   secure: false,
   logger: true,
   debug: true,
