@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Loock Me Up",
+        "image": "https://user-images.githubusercontent.com/89751266/154766168-96b01aac-517f-4937-8855-4193d5adbb93.png",
+        "github": "https://github.com/asadi80/look-me-up",
+        "online": "https://look-meup.herokuapp.com/",
+        "description": "Look Me Up is RESTful API QR Code Resume application, that allows the user to have someone scan the QR code it takes them to the social media profile on FaceBook, Instagram, LinkDin, GitHub and Twitter. This works across all devies and is convenient for people to network and share their information with others. "
+    },
+    {
+        "id": 2,
+        "name": "Tech Blog",
+        "image": "https://user-images.githubusercontent.com/89751266/152235124-73222870-344f-4bea-90ff-817e6e56ccd2.png",
+        "github": "https://github.com/asadi80/tech-blog",
+        "online": "https://tech-bloog.herokuapp.com/",
+        "description": "A completely full-stack CMS-style blog site! On the blog, developers will be able to log in, publish posts, and add comments to other posts."
+    },
+    {
+        "id": 3,
+        "name": "OCR ID Card",
+        "image": "https://user-images.githubusercontent.com/89751266/145700889-0ca6539e-b487-4773-b6fd-d2e498f229a3.png",
+        "github": "https://github.com/asadi80/ocr-id-card",
+        "online": "https://asadi80.github.io/ocr-id-card/",
+        "description": "Optical Character Recognition Optical Character Recognition (OCR) automatically recognizes and converts printed and handwritten characters and digits into editable text, eliminating the need for manual effort. Easily obtain accurate information from images of licenses, invoices, and forms, and improve business efficiency."
+    },
+    {
+        "id": 4,
+        "name": "Weather Dashboard",
+        "image": "https://user-images.githubusercontent.com/89751266/144723884-a39cf0cd-e545-478d-ab47-b20f89c976a7.png",
+        "github": "https://github.com/asadi80/Weather-Dashboard",
+        "online": "https://asadi80.github.io/Weather-Dashboard//",
+        "description": "Use the OpenWeather One Call API (Links to an external site.) to retrieve weather data for cities. Read through the documentation for setup and usage instructions. You will use localStorage to store any persistent data."
+    },
+    {
+        "id": 5,
+        "name": "Budget Tracker",
+        "image": "https://user-images.githubusercontent.com/89751266/158002622-d7d0aa65-090d-4c9d-a84a-83fec7c9e661.png",
+        "github": "https://github.com/asadi80/Budget-Tracker",
+        "online": "https://budget-trackeerr.herokuapp.com/",
+        "description": "Giving users a fast and easy way to track their money is important, but allowing them to access that information at any time is even more important. Having offline functionality is paramount to the success of an application that handles users’ financial information."
+    },
+    {
+        "id": 6,
+        "name": "Dinner For You",
+        "image": "https://user-images.githubusercontent.com/89751266/146664325-27e406be-2110-4bce-bcfd-c20662d5e80d.png",
+        "github": "https://github.com/ddoherty6/dinner-for-you",
+        "online": "https://ddoherty6.github.io/dinner-for-you/",
+        "description": "A simple app in which a user can generate a random recipe to use to cook themselves a hearty meal. Recipes include ingredient list, cooking instructions, occasional youtube videos, and a tasty looking photograph of the dish. This app also allows the user to email themselves a copy of the recipe and all related information to their email address of choice."
+    }
+]
