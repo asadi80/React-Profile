@@ -24,9 +24,6 @@ const contactEmail = nodemailer.createTransport({
     auth: {
       user: process.env.Email,
       pass: process.env.Password,
-    },
-    tls:{
-        rejectUnAuthorized:true
     }
   });
   
