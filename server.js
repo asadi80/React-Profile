@@ -36,7 +36,7 @@ const contactEmail = nodemailer.createTransport({
     const message = req.body.message; 
     const mail = {
       from: name,
-      to: "llyybb80@gmail.com",
+      to: "a.k.sadi80@gmail.com",
       subject: "Contact Form Submission",
       html: `<p>Name: ${name}</p>
              <p>Email: ${email}</p>
