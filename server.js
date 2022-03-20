@@ -19,8 +19,8 @@ app.use(express.static(path.resolve(__dirname, "build")));
 const contactEmail = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: process.env.Email,
-      pass: process.env.Password,
+      user: 'llyybb80@gmail.com',
+      pass: 'pqetngivnhcqfwyc',
     },
   });
   
