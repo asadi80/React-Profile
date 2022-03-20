@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.b98d837f.css",
+    "main.js": "/react-portfolio/static/js/main.3e583228.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/Progresive app-amico.png": "/react-portfolio/static/media/Progresive app-amico.8791fbe8899a53858f9f.png",
+    "static/media/Learning languages-cuate.png": "/react-portfolio/static/media/Learning languages-cuate.0068036e0381087c33f9.png",
+    "static/media/Get in touch-cuate.png": "/react-portfolio/static/media/Get in touch-cuate.77012cdff2cc3dc892b6.png",
+    "static/media/Abdurraouf Sadi.png": "/react-portfolio/static/media/Abdurraouf Sadi.627073d049f055a8ebf4.png",
+    "static/media/Abdurraouf Sadi.pdf": "/react-portfolio/static/media/Abdurraouf Sadi.ef56bf3a897164be45c5.pdf",
+    "index.html": "/react-portfolio/index.html",
+    "main.b98d837f.css.map": "/react-portfolio/static/css/main.b98d837f.css.map",
+    "main.3e583228.js.map": "/react-portfolio/static/js/main.3e583228.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b98d837f.css",
+    "static/js/main.3e583228.js"
+  ]
+}
