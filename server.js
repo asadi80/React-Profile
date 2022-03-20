@@ -17,8 +17,8 @@ app.use(express.static(path.resolve(__dirname, "build")));
 
 
 const contactEmail = nodemailer.createTransport({
-    // service: 'smtp.gmail.com',
-    service: 'gmail',
+    service: 'smtp.gmail.com',
+    
             port:465,
             secure: true,
             secureConnection: false,
