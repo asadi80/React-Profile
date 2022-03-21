@@ -4,7 +4,7 @@ const cors = require("cors");
 const nodemailer = require("nodemailer");
 require('dotenv').config();
 const path = require("path");
-const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT || 5000;
 
 
 
