@@ -13,7 +13,13 @@ app.use(cors());
 app.use(express.json());
 app.use("/", router);
 app.listen(PORT, () => console.log("Server Running"));
-app.use(express.static(path.resolve(__dirname, "./build")));
+if(process.env.NODE_ENV === "production"){
+  app.use(express.static('build'));
+  app.get('*',(req, res) =>{
+    req.sendFile(path.resolve(__dirname, "build", "index.html"));
+
+  })
+}
 
 
 const contactEmail = nodemailer.createTransport({
