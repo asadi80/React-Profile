@@ -12,7 +12,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use("/", router);
-app.listen(PORT, () => console.log("Server Running"));
+
 if(process.env.NODE_ENV === "production"){
   app.use(express.static('build'));
   app.get('*',(req, res) =>{
@@ -21,7 +21,7 @@ if(process.env.NODE_ENV === "production"){
   })
 }
 
-
+app.listen(PORT, () => console.log("Server Running"));
 const contactEmail = nodemailer.createTransport({
     service: 'gmail',
   
